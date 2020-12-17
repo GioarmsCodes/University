@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-  var x list.List
-  x = list.AddInOrder("pippo", x)
-  x = list.AddInOrder("pluto", x)
+  var x List
+  x = AddInOrder("pippo", x)
+  x = AddInOrder("pluto", x)
   x = list.AddInOrder("topolino", x)
   x = list.AddInOrder("ultimo", x)
   x = list.AddInOrder("abate", x)
