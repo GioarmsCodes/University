@@ -26,14 +26,7 @@ func Distanza(p1 Punto,p2 Punto) float64{
 func Stringpunto (p1 Punto) string{
     return fmt.Sprint(p1.etichetta," = (",p1.x,",",p1.y,")")
 }
-/*
-func Stringarraypunto (p1 []Punto) string{
-    var s string
-    for i:=0 ;i<len(p1);i++{
-        s += Stringpunto
-    }
-    return s
-}*/
+
 func Max(numero,numero2,numero3 float64) float64{
     var numeri []float64
     var max float64
@@ -162,7 +155,7 @@ func main(){
             }
             y,_ = strconv.ParseFloat(s[indextemp:],64)
         }
-        //fmt.Println(etichetta,x,y)
+        
         punto.etichetta = etichetta
         punto.x =x
         punto.y =y
