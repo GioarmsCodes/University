@@ -9,7 +9,7 @@ func TreeConstructor(strArr []string) string {
    for k:=0 ; k<len(strArr) ; k++{
     for i,x := range strArr[k]{
       if x == ','{
-        //child = string(strArr[0][1:i])
+    
         parent := string(strArr[k][i+1:len(strArr[k])-1])
         parents[parent]++
       }
