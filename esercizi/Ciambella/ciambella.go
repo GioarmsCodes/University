@@ -21,6 +21,7 @@ func main(){
     var zu unsafe.Pointer
     var k int
     var bu unsafe.Pointer
+    var pirasmax string
     var z []float64
     var b string
     fmt.Printf("\x1b[2J")
