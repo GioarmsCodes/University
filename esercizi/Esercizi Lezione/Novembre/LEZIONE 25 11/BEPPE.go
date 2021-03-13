@@ -17,6 +17,8 @@ func predict(i int,lunghezza int,s string) string{
     }
     for c:='a'; c<='z';c++{
         t=c
+        ciao := s[:i]+ string(t) +s[i+1:]
+        fmt.Println(ciao)
         correct = Check(s,c,i)
         if correct{
             break
@@ -26,6 +28,7 @@ func predict(i int,lunghezza int,s string) string{
 }
 
 func Check (s string,r2 rune,cont int) (c bool){
+
     sr := []rune(s)
     if sr[cont] == r2 {
         return true
