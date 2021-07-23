@@ -85,6 +85,7 @@ func ContainsLoop(walk []Location) (found bool){
     return false
 }
 
+
 func main(){
     var bot Location
     if len(os.Args) < 4{

@@ -20,25 +20,17 @@ for b.Scan(){
 }
 
     x:=rand.Intn(169)
-    fmt.Println("Davilk--> ",nomi[x])
+    fmt.Println("xased01--> ",nomi[x])
     x=rand.Intn(169)
     fmt.Println("Gioarm--> ",nomi[x])
     x=rand.Intn(169)
-    fmt.Println("Sajjad--> ",nomi[x])
+    fmt.Println("Alexynewgen--> ",nomi[x])
     x=rand.Intn(169)
-    fmt.Println("Raiden--> ",nomi[x])
+    fmt.Println("Pippofendi--> ",nomi[x])
     x=rand.Intn(169)
-    fmt.Println("Tokaji--> ",nomi[x])
+    fmt.Println("Edofendi--> ",nomi[x])
     x=rand.Intn(169)
-    fmt.Println("Jacopon--> ",nomi[x])
-    x=rand.Intn(169)
-    fmt.Println("Fahim--> ",nomi[x])
-    x=rand.Intn(169)
-    fmt.Println("Hiro--> ",nomi[x])
-    x=rand.Intn(169)
-    fmt.Println("Alphyie--> ",nomi[x])
-    x=rand.Intn(169)
-    fmt.Println("Simonoggia--> ",nomi[x])
+    fmt.Println("Simone--> ",nomi[x])
 
 
 
